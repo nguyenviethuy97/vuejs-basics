@@ -35,6 +35,11 @@ export default {
   props: {
     msg: String
   }
+  // data: () => {
+  //   return {
+  //     msg: 'Welcome to the world'
+  //   }
+  // },
 }
 </script>
 
