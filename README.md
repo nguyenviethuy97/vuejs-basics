@@ -30,6 +30,7 @@ Learning Vuejs from Nutshell
   property binding:
     v-bind:[property name]
 - Model: Link element with property
-
+  v-model
+  
 
 

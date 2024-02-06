@@ -6,6 +6,8 @@
 
     <h2 :class="{chosen: isSelected}">Binding class</h2>
     <button @click="isSelected = !isSelected">Change</button>
+
+    <input type="text" v-model="changeName">
 </div>
 </template>
 
@@ -16,6 +18,7 @@ export default {
       id: '123',
       isDisabled: true,
       isSelected: true,
+      changeName: 'tuwnguyen',
     }
   }
 }
