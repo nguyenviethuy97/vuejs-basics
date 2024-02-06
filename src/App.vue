@@ -2,16 +2,19 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <InputTest />
+  <Binding/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import InputTest from './components/InputTest.vue'
+import Binding from './components/Binding.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    InputTest
+    InputTest,
+    Binding
   }
 }
 </script>

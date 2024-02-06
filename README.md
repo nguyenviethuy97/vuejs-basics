@@ -21,3 +21,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Purposes of this project
 Learning Vuejs from Nutshell
+
+### Concepts
+- 2ways binding
+- LifeCycle
+- Binding:
+  value binding
+  property binding:
+    v-bind:[property name]
+    
+
+
+
