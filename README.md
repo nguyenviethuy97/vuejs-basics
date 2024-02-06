@@ -31,6 +31,10 @@ Learning Vuejs from Nutshell
     v-bind:[property name]
 - Model: Link element with property
   v-model
-  
+- Event handling:
+  - Catch events from elements:
+    v-on:event => @event="{function()}"
+- Prevent default event
+  Cancel default event of this element
 
 

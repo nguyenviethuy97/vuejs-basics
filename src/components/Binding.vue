@@ -7,7 +7,11 @@
     <h2 :class="{chosen: isSelected}">Binding class</h2>
     <button @click="isSelected = !isSelected">Change</button>
 
-    <input type="text" v-model="changeName">
+    
+    <form>
+      <input type="text" v-model="changeName">
+      <button @click.prevent="changeName = 'abc'">Click</button>
+    </form>
 </div>
 </template>
 
