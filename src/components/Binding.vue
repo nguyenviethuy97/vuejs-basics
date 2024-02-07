@@ -12,6 +12,16 @@
       <input type="text" v-model="changeName">
       <button @click.prevent="changeName = 'abc'">Click</button>
     </form>
+
+    <div v-show="isShow">V-show/hide</div>
+    
+    <div v-if="isShow">V-if</div>
+    <button @click="isShow=!isShow">
+      <span v-if="isShow">Hide</span>
+      <span v-else>Show</span>
+    </button>
+
+    
 </div>
 </template>
 
@@ -23,6 +33,7 @@ export default {
       isDisabled: true,
       isSelected: true,
       changeName: 'tuwnguyen',
+      isShow: true,
     }
   }
 }

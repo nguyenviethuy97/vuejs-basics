@@ -3,18 +3,21 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <InputTest />
   <Binding/>
+  <TodoList/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import InputTest from './components/InputTest.vue'
 import Binding from './components/Binding.vue'
+import TodoList from './components/TodoList.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     InputTest,
-    Binding
+    Binding,
+    TodoList,
   }
 }
 </script>

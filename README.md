@@ -29,12 +29,27 @@ Learning Vuejs from Nutshell
   value binding
   property binding:
     v-bind:[property name]
+
 - Model: Link element with property
   v-model
+
 - Event handling:
   - Catch events from elements:
     v-on:event => @event="{function()}"
+
 - Prevent default event
   Cancel default event of this element
 
+- ref
+  Refer to element
 
+- conditional rendering
+  v-show, v-hide, v-if, v-else-if, v-else
+
+- List rendering
+  v-for
+
+- Methods
+  functions of vue object
+
+- Watch: tracking changes of data
