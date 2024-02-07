@@ -40,16 +40,27 @@ Learning Vuejs from Nutshell
 - Prevent default event
   Cancel default event of this element
 
-- ref
+- ref: 
   Refer to element
 
-- conditional rendering
+- conditional rendering: 
   v-show, v-hide, v-if, v-else-if, v-else
 
-- List rendering
+- List rendering: 
   v-for
 
-- Methods
+- Methods: 
   functions of vue object
 
 - Watch: tracking changes of data
+
+- Hooks:
+  - mounted()
+
+- props:
+  - Convey data from parent comp to child comp
+  - dynamic and static props
+
+- filters:
+  - format data before rendering 
+  - local and global filters
