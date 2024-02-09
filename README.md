@@ -26,6 +26,7 @@ Learning Vuejs from Nutshell
 - 2ways binding
 - LifeCycle
   - [lifecycle hook](https://vuejs.org/guide/essentials/lifecycle.html)
+
 - Binding:
   value binding
   property binding:
@@ -36,8 +37,9 @@ Learning Vuejs from Nutshell
 
 - Event handling:
   - Catch events from elements:
+    ```
     v-on:event => @event="{function()}"
-
+    ```
 - Prevent default event
   - Cancel default event of this element
 
@@ -45,10 +47,14 @@ Learning Vuejs from Nutshell
   - Refer to element
 
 - conditional rendering: 
-  - v-show, v-hide, v-if, v-else-if, v-else
+  ```
+  v-show, v-hide, v-if, v-else-if, v-else
+  ```
 
 - List rendering: 
-  - v-for
+  ```
+  v-for
+  ```
 
 - Methods: 
   - functions of vue object
