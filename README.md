@@ -22,6 +22,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Purposes of this project
 Learning Vuejs from Nutshell
 
+### Vue3 Migration Guide
+See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
+
 ### Concepts
 - 2ways binding
 - LifeCycle
