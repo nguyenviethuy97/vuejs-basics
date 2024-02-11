@@ -69,9 +69,18 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
   - mounted()
 
 - props:
+  - [props doc](https://vuejs.org/guide/components/props.html)
   - Convey data from parent comp to child comp
+  - Props are read only
   - dynamic and static props
+  - How to change props from child comp: using event function in props 
+  ```html
+  <child-comp :change-prop-event="(value) => prop = value"><child-comp>
+  ```
 
 - filters:
   - format data before rendering 
   - local and global filters
+
+- compute properties
+  - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
