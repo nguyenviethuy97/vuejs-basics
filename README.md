@@ -29,7 +29,9 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 - 2ways binding
 - LifeCycle
   - [lifecycle hook](https://vuejs.org/guide/essentials/lifecycle.html)
-
+  - [created() hook](https://vuejs.org/api/options-lifecycle.html#created)
+    - Called after the instance has finished processing all state-related options.
+    
 - Binding:
   value binding
   property binding:
