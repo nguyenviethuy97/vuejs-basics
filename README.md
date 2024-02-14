@@ -25,6 +25,9 @@ Learning Vuejs from Nutshell
 ### Vue3 Migration Guide
 See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 
+### Differences between Composition and Option API
+See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
+
 ### Concepts
 - 2ways binding
 - LifeCycle
