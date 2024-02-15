@@ -28,6 +28,10 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 ### Differences between Composition and Option API
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
+### Option API
+
+### Composition API
+
 ### Concepts
 - 2ways binding
 - LifeCycle
@@ -87,5 +91,8 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - format data before rendering 
   - local and global filters
 
-- compute properties
+- computed properties
   - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
+
+- watch property
+  - [watch](https://vuejs.org/api/options-state.html#watch)
