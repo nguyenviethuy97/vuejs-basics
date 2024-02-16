@@ -29,6 +29,21 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
 ### Option API
+- hooks:
+  - mounted()
+
+- computed properties
+  - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
+
+- watch property
+  - [watch](https://vuejs.org/api/options-state.html#watch)
+
+- create custom events
+  - [event](https://vuejs.org/api/options-state.html#emits)
+  - Declare the custom events emitted by the component.
+  ```js
+  $emit: with $ is public property
+  ```
 
 ### Composition API
 
@@ -74,8 +89,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - Watch: 
   - tracking changes of data
 
-- Hooks:
-  - mounted()
+
 
 - props:
   - [props doc](https://vuejs.org/guide/components/props.html)
@@ -90,9 +104,3 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - filters:
   - format data before rendering 
   - local and global filters
-
-- computed properties
-  - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
-
-- watch property
-  - [watch](https://vuejs.org/api/options-state.html#watch)
