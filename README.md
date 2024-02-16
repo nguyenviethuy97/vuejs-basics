@@ -104,3 +104,6 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - filters:
   - format data before rendering 
   - local and global filters
+
+### Vue Router
+- [Docs](https://router.vuejs.org/introduction.html)
