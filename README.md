@@ -107,3 +107,6 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
+- route params
+- router's active class
+- nesting routes
