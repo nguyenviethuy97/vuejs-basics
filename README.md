@@ -110,3 +110,10 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - route params
 - router's active class
 - nesting routes
+
+### Vuex
+- State
+  - mapState()
+  
+- Getters
+  - mapGetters()
