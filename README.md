@@ -113,7 +113,30 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 
 ### Vuex
 - State
-  - mapState()
-  
+  - Single state tree
+
 - Getters
+  - Property-style access
+  - Method-style access
+
+- Mutations
+  - `commit` with payload
+  - mutations must be synchronous
+
+- Actions
+  - handle asynchronous operations
+  - `context` argument: obj store hien tai
+  - `commit`: call mutation
+  - `dispatch`: call aciton
+
+- Modules
+  - Namspacing and nested modules
+  - Dynamic module registration
+
+- Mapping in Vuex
+  ```js
+  - mapState()
   - mapGetters()
+  - mapMutations()
+  - mapActions()
+  ```
