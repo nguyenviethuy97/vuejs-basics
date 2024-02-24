@@ -92,8 +92,6 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - Watch: 
   - tracking changes of data
 
-
-
 - props:
   - [props doc](https://vuejs.org/guide/components/props.html)
   - Convey data from parent comp to child comp
@@ -115,6 +113,8 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - nesting routes
 
 ### Vuex
+- [Best practices](https://dev.to/timothyokooboh/vuex-best-practices-45dd)
+
 - State
   - Single state tree
 
@@ -137,9 +137,18 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - Dynamic module registration
 
 - Mapping in Vuex
+  - [Doc](https://viblo.asia/p/mapping-hoat-dong-nhu-the-nao-trong-vuex-djeZ1zL8lWz)
   ```js
   - mapState()
   - mapGetters()
   - mapMutations()
   - mapActions()
   ```
+
+- Advanced
+  - Plugins??
+  - Strict mode
+  ...
+
+- How to mutate state of Vuex store in form component
+  - [Link](https://vuex.vuejs.org/guide/forms.html)
