@@ -115,6 +115,8 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 ### Vuex
 - [Best practices](https://dev.to/timothyokooboh/vuex-best-practices-45dd)
 
+- [Examples](https://github.com/vuejs/vuex/tree/main/examples)
+
 - State
   - Single state tree
 
@@ -152,3 +154,17 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 
 - How to mutate state of Vuex store in form component
   - [Link](https://vuex.vuejs.org/guide/forms.html)
+
+
+### Others modules use with VUE
+  - [More modules should be aware of](https://browsee.io/blog/10-vue-js-npm-modules-that-you-should-be-aware-of/)
+
+  - `vue-i18n`
+    . [Guide/API](https://kazupon.github.io/vue-i18n/started.html)
+  - `vue-spinner`
+    . [Guide](https://github.com/greyby/vue-spinner/tree/master)
+  - `vue-loader`
+    - is loader for webpack that allows you to author Vue components in a format called Single-File Components (SFCs)
+    . [Guide](https://vue-loader.vuejs.org/guide/)
+  - `vue-composable`
+    - is a library that aims to provide a wide range of real-world composable functions for Vue.js applications. These composable functions are designed to encapsulate and reuse stateful logic using Vue's Composition API. 
