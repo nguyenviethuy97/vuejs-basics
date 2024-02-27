@@ -167,4 +167,5 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
     - is loader for webpack that allows you to author Vue components in a format called Single-File Components (SFCs)
     . [Guide](https://vue-loader.vuejs.org/guide/)
   - `vue-composable`
+    - [Doc](https://pikax.me/vue-composable/composable/)
     - is a library that aims to provide a wide range of real-world composable functions for Vue.js applications. These composable functions are designed to encapsulate and reuse stateful logic using Vue's Composition API. 
