@@ -58,9 +58,26 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
     - Called after the instance has finished processing all state-related options.
     
 - Binding:
-  value binding
-  property binding:
-    v-bind:[property name]
+   - value binding
+   - property binding(attribute binding):
+      `v-bind:attr` ==> new way `:attr`
+   - dynamic binding
+      ```js
+      const imageInfo = {
+        src: 'http://images.google.com/',
+        alt: 'GG image',
+        width: 400,
+        height: 500
+      }
+      ...
+      <image :="imageInfo"/>
+      ```
+- Styling
+  - Global style
+  - Local style (`<style scoped>`)
+  - Module style
+    - `<style module>` uses CSS Modules, which creates isolated style classes that cannot be used in other components unless explicitly imported. In another component, we can use styles from module by `$store` object
+    - 
 
 - Model: Link element with property
   v-model
