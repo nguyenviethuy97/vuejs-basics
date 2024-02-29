@@ -107,8 +107,13 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   ```
 
 - List rendering: 
-  ```
+  ```js
   v-for
+  : not only iterate the array, nested array, but also an object or nested object
+  <ul v-for="({game, genre, date}, index) in object">
+    <li>{{genre}}</li>
+    <li v-for="(property, i) in game">{{property}}</li>
+  </ul>
   ```
 
 - Methods: 
