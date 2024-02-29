@@ -27,7 +27,6 @@ Learning Vuejs from Nutshell
 See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 
 
-
 ### Differences between Composition and Option API
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
@@ -50,6 +49,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 
 ### Composition API
 - [Migrate from option api to composition api](https://dev.to/nicolasmontielf/migrate-option-api-to-composition-api-on-vue3-4o3p)
+
 
 ### Concepts
 - 2ways binding
@@ -130,6 +130,10 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - filters:
   - format data before rendering 
   - local and global filters
+
+### Advanced-Concepts
+#### Components In-Depth
+  - [Slots](https://vuejs.org/guide/components/slots.html#slots)
 
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
