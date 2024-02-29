@@ -22,6 +22,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Purposes of this project
 Learning Vuejs from Nutshell
 
+
 ### Vue3 Migration Guide
 See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 
@@ -94,8 +95,15 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - Refer to element
 
 - conditional rendering: 
-  ```
-  v-show, v-hide, v-if, v-else-if, v-else
+  ```js
+  v-show, v-hide, v-if, v-else-if, v-else (v-show: Vue still keep visibility(disabled) of v-show on the DOM, opposed to v-if) 
+  //example for v-if, v-else-if
+  const isTrue = true
+  ...
+  <p v-if="isTrue">This will show</p>
+  <p v-else-if="isTrue">This will show</p>
+
+  '===> just show the 1st p tag, because v-if just show the 1st if it already true'
   ```
 
 - List rendering: 
