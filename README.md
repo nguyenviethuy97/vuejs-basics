@@ -7,6 +7,7 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 ### Differences between Composition and Option API
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
+---
 ### Option API
 - Hooks:
   - mounted()
@@ -24,7 +25,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   ```js
   $emit: with $ is public property
   ```
-
+---
 ### Composition API
 - [Migrate from option api to composition api](https://dev.to/nicolasmontielf/migrate-option-api-to-composition-api-on-vue3-4o3p)
 
@@ -41,7 +42,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - Template Ref(Ref on component)
   - Using `defineExpose()` to parent component can access child components because when child comp using `<script setup>`, component private by default in that time.
 
-
+---
 ### Concepts
 - 2ways binding
 - LifeCycle
@@ -136,6 +137,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - format data before rendering 
   - local and global filters
 
+---
 ### Advanced-Concepts
 #### Components In-Depth
   - [Slots](https://vuejs.org/guide/components/slots.html#slots)
@@ -147,12 +149,22 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - : is a feature that allows you to load a component asynchronously, meaning the components is **loaded and renderd when it's needed**
   - `defineAsyncComponent()`: used to create async components, which can be helpful for improving the initial loading performance of your application by deffering the loading of certain components until they are actually needed. In addition, it reduce the size of your initial bundle and improve the performance of your web application, especially for large-scale applications with numerous components.
 
+#### Reusability
+  - [Composables](https://vuejs.org/guide/reusability/composables.html)
+  - : is a function or set of functions that encapsulate a piece of logic and can be composed together to build the functionality of a Vue component. **reusable and shareable** to manage complex logic and behavior in a Vue application
+  - `use` prefix, ex: `useCounter()`
+
+  - [Custom Directive](https://vuejs.org/guide/reusability/custom-directives.html)
+  - : allow to define your own behavior that can be applied to elements in the template.
+
+---
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
 - route params
 - router's active class
 - nesting routes
 
+---
 ### Vuex
 - [Best practices](https://dev.to/timothyokooboh/vuex-best-practices-45dd)
 
@@ -196,7 +208,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - How to mutate state of Vuex store in form component
   - [Link](https://vuex.vuejs.org/guide/forms.html)
 
-
+---
 ### Others modules use with VUE
   - [More modules should be aware of](https://browsee.io/blog/10-vue-js-npm-modules-that-you-should-be-aware-of/)
 
