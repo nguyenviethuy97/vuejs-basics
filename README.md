@@ -143,6 +143,10 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - Fallback/Default content in slot
   - Named slots: is a way to assign a specific name to a slot in a component.
 
+  - [Async Components](https://vuejs.org/guide/components/async.html#async-components)
+  - : is a feature that allows you to load a component asynchronously, meaning the components is **loaded and renderd when it's needed**
+  - `defineAsyncComponent()`: used to create async components, which can be helpful for improving the initial loading performance of your application by deffering the loading of certain components until they are actually needed. In addition, it reduce the size of your initial bundle and improve the performance of your web application, especially for large-scale applications with numerous components.
+
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
 - route params

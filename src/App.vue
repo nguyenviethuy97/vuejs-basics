@@ -21,8 +21,9 @@
         </template>
       </NamedSlot>
       <BasicRef></BasicRef>
+      <RefComponent></RefComponent>
     </div>
-  <RefComponent></RefComponent>
+  <Toggle></Toggle>
 </template>
 
 <script>
@@ -35,6 +36,7 @@ import FallbackSlotContent from './components/FallbackSlotContent.vue'
 import NamedSlot from './components/NamedSlot.vue'
 import BasicRef from './components/BasicRef.vue'
 import RefComponent from './components/RefComponent.vue'
+import Toggle from './components/Toggle.vue'
 
 export default {
   name: 'App',
@@ -47,7 +49,8 @@ export default {
     FallbackSlotContent,
     NamedSlot,
     BasicRef,
-    RefComponent
+    RefComponent,
+    Toggle
   },
   data: () => {
     return {
