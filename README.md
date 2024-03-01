@@ -51,14 +51,24 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 ### Composition API
 - [Migrate from option api to composition api](https://dev.to/nicolasmontielf/migrate-option-api-to-composition-api-on-vue3-4o3p)
 
+- Lifecycle Hooks
+  - `onMounted()`
+    -: is used for executing logic or actions after a comp has been mounted to the DOM. This hook is useful for tasks should occur once, comp is ready to interact with the user, such as `fetching data, setting up the events listeners, performing initial calculations`
+  
+  - `onBeforeUpdate()`
+  - `onUpdated()`
+  - `onBeforeUnmount()`
+  - `onUnmounted()`
+...
 
 ### Concepts
 - 2ways binding
 - LifeCycle
   - [lifecycle hook](https://vuejs.org/guide/essentials/lifecycle.html)
+  
   - [created() hook](https://vuejs.org/api/options-lifecycle.html#created)
     - Called after the instance has finished processing all state-related options.
-    
+  
 - Binding:
    - value binding
    - property binding(attribute binding):
