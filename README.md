@@ -137,6 +137,9 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - format data before rendering 
   - local and global filters
 
+- [Dynamic Component](https://vuejs.org/guide/essentials/component-basics.html#dynamic-components)
+  - : refer to the ability to dynamically switch between different components based on certain conditions or user interaction.
+  - `<component :is="FirstComponent">`
 ---
 ### Advanced-Concepts
 #### Components In-Depth

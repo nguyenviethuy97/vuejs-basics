@@ -22,8 +22,9 @@
       </NamedSlot>
       <BasicRef></BasicRef>
       <RefComponent></RefComponent>
+      <Toggle></Toggle>
     </div>
-  <Toggle></Toggle>
+  <DynamicComponent></DynamicComponent>
 </template>
 
 <script>
@@ -37,6 +38,7 @@ import NamedSlot from './components/NamedSlot.vue'
 import BasicRef from './components/BasicRef.vue'
 import RefComponent from './components/RefComponent.vue'
 import Toggle from './components/Toggle.vue'
+import DynamicComponent from './components/DynamicComponent.vue'
 
 export default {
   name: 'App',
@@ -50,7 +52,8 @@ export default {
     NamedSlot,
     BasicRef,
     RefComponent,
-    Toggle
+    Toggle,
+    DynamicComponent
   },
   data: () => {
     return {
