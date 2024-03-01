@@ -80,7 +80,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
     - `<style module>` uses CSS Modules, which creates isolated style classes that cannot be used in other components unless explicitly imported. In another component, we can use styles from module by `$store` object
     - 
 
-- Model: Link element with property
+- Model: Connection and create 2way binding between the data in component and the input fields
   v-model
 
 - Event handling:
