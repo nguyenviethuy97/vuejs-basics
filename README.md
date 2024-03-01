@@ -1,27 +1,4 @@
-# vue-basics
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-### Purposes of this project
-Learning Vuejs from Nutshell
-
+# Documentation for Vuejs
 
 ### Vue3 Migration Guide
 See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
@@ -60,6 +37,10 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - `onBeforeUnmount()`
   - `onUnmounted()`
 ...
+
+- Template Ref(Ref on component)
+  - Using `defineExpose()` to parent component can access child components because when child comp using `<script setup>`, component private by default in that time.
+
 
 ### Concepts
 - 2ways binding
@@ -102,10 +83,11 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - Prevent default event
   - Cancel default event of this element
 
-- ref: 
-  - Refer to element
+- [Template Ref](https://vuejs.org/guide/essentials/template-refs.html#template-refs): 
+  -: is a way to create a **reference to a child** component, element, or a DOM element within a template. This allows you to access and manipulate the referenced object directly in your component's logic.(Refer to element)
+  - Basic ref, function ref, ref on component()
 
-- conditional rendering: 
+- Conditional Rendering: 
   ```js
   v-show, v-hide, v-if, v-else-if, v-else (v-show: Vue still keep visibility(disabled) of v-show on the DOM, opposed to v-if) 
   //example for v-if, v-else-if

@@ -1,24 +1,28 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld :msg="msg"/>
-  <InputTest />
-  <Binding/>
-  <TodoList/>
-  <SlotComponent>
-    <h1>Content 1</h1>
-    <h1>Content 2</h1>
-  </SlotComponent>
-  <FallbackSlotContent>
-    <!-- <h1>Not default content</h1> -->
-  </FallbackSlotContent>
-  <NamedSlot>
-    <template v-slot:one>
-      <h1> This slot go to content 1</h1>
-    </template>
-    <template #two>
-      <h1> This slot go to content 2</h1>
-    </template>
-  </NamedSlot>
+    <div v-if="false">
+      <HelloWorld :msg="msg"/>
+      <InputTest />
+      <Binding/>
+      <TodoList/>
+      <SlotComponent>
+        <h1>Content 1</h1>
+        <h1>Content 2</h1>
+      </SlotComponent>
+      <FallbackSlotContent>
+        <!-- <h1>Not default content</h1> -->
+      </FallbackSlotContent>
+      <NamedSlot>
+        <template v-slot:one>
+          <h1> This slot go to content 1</h1>
+        </template>
+        <template #two>
+          <h1> This slot go to content 2</h1>
+        </template>
+      </NamedSlot>
+      <BasicRef></BasicRef>
+    </div>
+  <RefComponent></RefComponent>
 </template>
 
 <script>
@@ -29,6 +33,9 @@ import TodoList from './components/TodoList.vue'
 import SlotComponent from './components/SlotComponent.vue'
 import FallbackSlotContent from './components/FallbackSlotContent.vue'
 import NamedSlot from './components/NamedSlot.vue'
+import BasicRef from './components/BasicRef.vue'
+import RefComponent from './components/RefComponent.vue'
+
 export default {
   name: 'App',
   components: {
@@ -38,7 +45,9 @@ export default {
     TodoList,
     SlotComponent,
     FallbackSlotContent,
-    NamedSlot
+    NamedSlot,
+    BasicRef,
+    RefComponent
   },
   data: () => {
     return {
