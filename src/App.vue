@@ -4,6 +4,21 @@
   <InputTest />
   <Binding/>
   <TodoList/>
+  <SlotComponent>
+    <h1>Content 1</h1>
+    <h1>Content 2</h1>
+  </SlotComponent>
+  <FallbackSlotContent>
+    <!-- <h1>Not default content</h1> -->
+  </FallbackSlotContent>
+  <NamedSlot>
+    <template v-slot:one>
+      <h1> This slot go to content 1</h1>
+    </template>
+    <template #two>
+      <h1> This slot go to content 2</h1>
+    </template>
+  </NamedSlot>
 </template>
 
 <script>
@@ -11,6 +26,9 @@ import HelloWorld from './components/HelloWorld.vue'
 import InputTest from './components/InputTest.vue'
 import Binding from './components/Binding.vue'
 import TodoList from './components/TodoList.vue'
+import SlotComponent from './components/SlotComponent.vue'
+import FallbackSlotContent from './components/FallbackSlotContent.vue'
+import NamedSlot from './components/NamedSlot.vue'
 export default {
   name: 'App',
   components: {
@@ -18,6 +36,9 @@ export default {
     InputTest,
     Binding,
     TodoList,
+    SlotComponent,
+    FallbackSlotContent,
+    NamedSlot
   },
   data: () => {
     return {

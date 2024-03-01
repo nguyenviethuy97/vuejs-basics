@@ -141,7 +141,10 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 ### Advanced-Concepts
 #### Components In-Depth
   - [Slots](https://vuejs.org/guide/components/slots.html#slots)
-  
+  - : a slot is like a *space in a component* where you can put different things. Allow to create reusable components that can accept different content while maintaining a consistent structure.
+  - Fallback/Default content in slot
+  - Named slots: is a way to assign a specific name to a slot in a component.
+
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
 - route params
