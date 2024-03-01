@@ -37,11 +37,12 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - computed properties
   - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
 
-- watch property
+- Watch property
   - [watch](https://vuejs.org/api/options-state.html#watch)
 
-- create custom events
+- Create custom events/ Component event
   - [event](https://vuejs.org/api/options-state.html#emits)
+  - : component events are a way for child components to communicate with their parent components, by emit events that can be listened to and handled by their parent components
   - Declare the custom events emitted by the component.
   ```js
   $emit: with $ is public property
@@ -122,11 +123,12 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 - Watch: 
   - tracking changes of data
 
-- props:
+- Props:
   - [props doc](https://vuejs.org/guide/components/props.html)
   - Convey data from parent comp to child comp
   - Props are read only
-  - dynamic and static props
+  - Dynamic and static props
+  - Props validation and default values
   - How to change props from child comp: using event function in props 
   ```html
   <child-comp :change-prop-event="(value) => prop = value"><child-comp>
@@ -139,7 +141,7 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 ### Advanced-Concepts
 #### Components In-Depth
   - [Slots](https://vuejs.org/guide/components/slots.html#slots)
-
+  
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
 - route params
