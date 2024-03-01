@@ -31,10 +31,10 @@ See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
 ### Option API
-- hooks:
+- Hooks:
   - mounted()
 
-- computed properties
+- Computed properties
   - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
 
 - Watch property
@@ -133,6 +133,9 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   ```html
   <child-comp :change-prop-event="(value) => prop = value"><child-comp>
   ```
+- Provide & inject (Dependency Injection)
+  - Parent component want to convey data to child components
+  - `import { provide, inject } from 'vue'`
 
 - filters:
   - format data before rendering 
