@@ -132,6 +132,9 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 
 - Watch: 
   - tracking changes of data
+  - `watch(source, callback, options)`
+    - source: Ref(), Reactive object, array, getter function
+
 
 - Props:
   - [props doc](https://vuejs.org/guide/components/props.html)
