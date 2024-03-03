@@ -152,6 +152,9 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - : is a feature that allows you to load a component asynchronously, meaning the components is **loaded and renderd when it's needed**
   - `defineAsyncComponent()`: used to create async components, which can be helpful for improving the initial loading performance of your application by deffering the loading of certain components until they are actually needed. In addition, it reduce the size of your initial bundle and improve the performance of your web application, especially for large-scale applications with numerous components.
 
+  - [Fallthough Attributes](https://vuejs.org/guide/components/attrs.html)
+  - : refers to attributes that are not recognized by Vue's component system and are passed through to the underlying DOM element. These attributes are not handled by Vue's reactivity system and are not reactive. They are simply passed through to the DOM element and can be used for any purpose that is supported by the DOM element.
+
 #### Reusability
   - [Composables](https://vuejs.org/guide/reusability/composables.html)
   - : is a function or set of functions that encapsulate a piece of logic and can be composed together to build the functionality of a Vue component. **reusable and shareable** to manage complex logic and behavior in a Vue application
