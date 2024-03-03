@@ -163,6 +163,11 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
   - [Custom Directive](https://vuejs.org/guide/reusability/custom-directives.html)
   - : allow to define your own behavior that can be applied to elements in the template.
 
+#### Scaling up
+  - [Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html)
+  - : ???
+  - [Server-Side Rendering](https://vuejs.org/guide/scaling-up/ssr.html)
+  - : ???
 ---
 ### Vue Router
 - [Docs](https://router.vuejs.org/introduction.html)
