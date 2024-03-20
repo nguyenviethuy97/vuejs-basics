@@ -3,6 +3,8 @@
 ### Vue3 Migration Guide
 See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
 
+### Cool things in Vue3
+See [Slide](https://docs.google.com/presentation/d/12xGb9M4O9JO4niKSYsm6OtbWz2zI_R7VlhR0qro-zow/edit#slide=id.p)
 
 ### Differences between Composition and Option API
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
