@@ -7,3 +7,6 @@
 
 ## Suspense
   - [Docs](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+## KeepAlive
+  - [Docs](https://vuejs.org/guide/built-ins/keep-alive.html)
