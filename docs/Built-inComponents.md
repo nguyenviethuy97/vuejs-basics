@@ -1,5 +1,10 @@
-## Transition
+
+## Animation
+### Transition
   - [Docs](https://vuejs.org/guide/built-ins/transition.html)
+
+### Transition Group
+  - [Docs](https://vuejs.org/guide/built-ins/transition-group.html)
 
 ## Teleport
   - [Docs](https://vuejs.org/guide/built-ins/teleport.html)
