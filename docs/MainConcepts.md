@@ -1,7 +1,7 @@
 # Documentation for Vuejs
 
-### Vue3 Migration Guide
-See [Filters](https://v3-migration.vuejs.org/breaking-changes/filters.html)
+### Roadmap
+See [Slide](https://roadmap.sh/vue)
 
 ### Cool things in Vue3
 See [Slide](https://docs.google.com/presentation/d/12xGb9M4O9JO4niKSYsm6OtbWz2zI_R7VlhR0qro-zow/edit#slide=id.p)
@@ -10,35 +10,12 @@ See [Slide](https://docs.google.com/presentation/d/12xGb9M4O9JO4niKSYsm6OtbWz2zI
 See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats-difference-md-najmul-hasan/)
 
 ---
-### Option API
-- Hooks:
-  - mounted()
-
-- Computed properties
-  - A computed property automatically tracks its reactive dependencies. Vue is aware that the computation of computed functions depends on state or ever value, so it will update any bindings that depend on compute function when state changes.
-
-- Watch property
-  - [watch](https://vuejs.org/api/options-state.html#watch)
-
-- Create custom events/ Component event
-  - [event](https://vuejs.org/api/options-state.html#emits)
-  - : component events are a way for child components to communicate with their parent components, by emit events that can be listened to and handled by their parent components
-  - Declare the custom events emitted by the component.
-  ```js
-  $emit: with $ is public property
-  ```
----
 ### Composition API
 - [Migrate from option api to composition api](https://dev.to/nicolasmontielf/migrate-option-api-to-composition-api-on-vue3-4o3p)
 
 - Lifecycle Hooks
   - `onMounted()`
     -: is used for executing logic or actions after a comp has been mounted to the DOM. This hook is useful for tasks should occur once, comp is ready to interact with the user, such as `fetching data, setting up the events listeners, performing initial calculations`
-  
-  - `onBeforeUpdate()`
-  - `onUpdated()`
-  - `onBeforeUnmount()`
-  - `onUnmounted()`
 ...
 
 - Template Ref(Ref on component)
@@ -47,11 +24,6 @@ See [Diff](https://www.linkedin.com/pulse/vue-3-options-api-vs-composition-whats
 ---
 ### Concepts
 - 2ways binding
-- LifeCycle
-  - [lifecycle hook](https://vuejs.org/guide/essentials/lifecycle.html)
-  
-  - [created() hook](https://vuejs.org/api/options-lifecycle.html#created)
-    - Called after the instance has finished processing all state-related options.
   
 - Binding:
    - value binding
